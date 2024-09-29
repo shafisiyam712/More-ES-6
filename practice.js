@@ -20,6 +20,7 @@ let data = {
         ]
     }
 }
+console.log(data.Sophia.study[1].secondary[1]);
 
 // task-2: console .log  output: Petersburg, Herry
 
@@ -47,6 +48,7 @@ let students = {
         }
     }
 }
+console.log(students[2222].address.city,' ',students[3333].name);
 
 
 // task-3 : access and then show habluder adda
@@ -74,3 +76,4 @@ let data2 = {
             }
         ]
 }
+console.log(data2.data[0].bookDetails.name,' ',data2.data[1].bookCategory);
